@@ -1,0 +1,250 @@
+/* variables */
+:root {
+  --dark-violet: #854dce;
+  --soft-violet: #a373dd;
+  --dark-blue: #3d3d73;
+  --very-dark-blue: #1a1a47;
+  --soft-blue: #eff6fe;
+  --white: #fff;
+}
+
+/* reset styles */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* base styles */
+html {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16rem;
+}
+
+.button-contained {
+  display: block;
+  background-color: var(--dark-violet);
+  color: var(--white);
+  border-radius: 50px;
+  padding: 11px 15px;
+  font-size: 14rem;
+  text-align: center;
+}
+
+.button-outlined {
+  display: block;
+  color: var(--dark-violet);
+  border: 1px solid var(--dark-violet);
+  border-radius: 50px;
+  padding: 11px 15px;
+  font-size: 14rem;
+  text-align: center;
+}
+
+/* fonts */
+h1 {
+  font-size: 24rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 14rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* mobile styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* header */
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+.header-wrapper p {
+  font-size: 20rem;
+  font-weight: 700;
+  color: var(--dark-violet);
+}
+
+.header-hamburger {
+  background: url("../icons/icon-hamburger.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+/* hero */
+.wrapper-hero {
+  padding: 40px 30px;
+}
+
+.wrapper-hero h2 {
+  text-align: center;
+}
+
+.wrapper-button .button-contained {
+  margin-bottom: 17px;
+}
+
+/* services */
+.wrapper-services {
+  padding: 40px 30px;
+}
+
+.item-service {
+  margin-bottom: 50px;
+}
+
+.img {
+  background-color: var(--soft-blue);
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-service img {
+  width: 60%;
+}
+
+/* works */
+.wrapper-works {
+  padding: 0 30px;
+}
+
+.item-project {
+  margin-bottom: 50px;
+}
+
+.img-project {
+  background-color: #c4c4c4;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.item-project .button-contained {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* team */
+.wrapper-team {
+  padding: 40px 30px;
+}
+
+.item-team {
+  margin-bottom: 50px;
+}
+
+.img-team {
+  background: url("../img/img-people-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.item-team h3 {
+  margin-bottom: 5px;
+}
+
+.item-team p {
+  text-transform: uppercase;
+}
+
+/* contact */
+.wrapper-contact {
+  background-color: var(--soft-blue);
+  padding: 50px 30px;
+}
+
+/* footer */
+.footer {
+  background-color: var(--very-dark-blue);
+  padding: 50px 30px 20px;
+  color: var(--white);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.facebook {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../icons/icon-facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../icons/icon-twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.instagram {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../icons/icon-instagram.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wrapper-footer .description {
+  margin: 0;
+}
