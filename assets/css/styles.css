@@ -175,7 +175,7 @@ h3 {
   padding: 0 30px;
 }
 
-.item-project {
+.project-item {
   margin-bottom: 50px;
 }
 
@@ -186,7 +186,7 @@ h3 {
   margin: 0 auto;
 }
 
-.item-project .button-outlined {
+.project-item .button-outlined {
   width: 50%;
   margin: 0 auto;
 }
@@ -196,7 +196,7 @@ h3 {
   padding: 40px 30px;
 }
 
-.item-team {
+.team-item {
   margin-bottom: 50px;
 }
 
@@ -211,11 +211,11 @@ h3 {
   margin: 0 auto;
 }
 
-.item-team h3 {
+.team-item h3 {
   margin-bottom: 5px;
 }
 
-.item-team p {
+.team-item p {
   text-transform: uppercase;
 }
 
@@ -281,8 +281,11 @@ h3 {
   background-size: contain;
 }
 
-.facebook:hover, .twitter:hover, .instagram:hover {
-  filter: invert(33%) sepia(58%) saturate(1627%) hue-rotate(241deg) brightness(91%) contrast(87%);
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+  filter: invert(33%) sepia(58%) saturate(1627%) hue-rotate(241deg)
+    brightness(91%) contrast(87%);
 }
 
 .wrapper-footer .description {
@@ -373,11 +376,11 @@ h3 {
     justify-content: center;
   }
 
-  .item-project {
+  .project-item {
     width: 50%;
   }
 
-  .item-project .description {
+  .project-item .description {
     width: 80%;
   }
 
@@ -402,7 +405,7 @@ h3 {
     justify-content: center;
   }
 
-  .item-team {
+  .team-item {
     margin: 0 20px;
   }
 
