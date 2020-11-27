@@ -261,11 +261,11 @@ h3 {
   background-size: contain;
 }
 
-.twitter {
+.linkedin {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("../icons/icon-twitter.svg");
+  background: url("../icons/icon-linkedin.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -282,7 +282,7 @@ h3 {
 }
 
 .facebook:hover,
-.twitter:hover,
+.linkedin:hover,
 .instagram:hover {
   filter: invert(33%) sepia(58%) saturate(1627%) hue-rotate(241deg)
     brightness(91%) contrast(87%);
